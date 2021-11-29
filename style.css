@@ -16,7 +16,5 @@ body{
 main{
     width: 400px;
     height: 500px;
-    border: 2px solid black;
     margin: 200px auto 0;
 }
-
