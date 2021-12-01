@@ -17,14 +17,51 @@ main{
     width: 300px;
     height: 500px;
     margin: 100px auto 0;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
 }
 
 .img-equilibrium{
     width: 245px; 
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: 20px 28px 0 28px;
     border-radius: 15px;
+}
+
+.conteudo{
+    margin-left: 27px;
+    color: #FFFFFF
+}
+
+.conteudo h2{
+    font-size: 18px;
+}
+
+.conteudo p{
+    font-size: 15px;
+    width: 90%;
+}
+
+.informacoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+} 
+
+.valor p{
+    display: inline;
+    margin-right: 30px;
+}
+
+.periodo p{
+    display: inline;
+}
+
+.separacao{
+    border-bottom: 1px solid #CCCCCC;
+    width: 85%;
+    margin: 24px auto;
+    opacity: 0.2;
 }
