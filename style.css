@@ -14,7 +14,13 @@ body{
 }
 
 main{
-    width: 400px;
+    width: 300px;
     height: 500px;
-    margin: 200px auto 0;
+    margin: 100px auto 0;
+    border: 2px solid black;
+}
+
+.img-equilibrium{
+    width: 60%;
+    
 }
