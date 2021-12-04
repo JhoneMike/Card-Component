@@ -76,4 +76,18 @@ main{
 .footer img{
     width: 10%;
     display: inline-block;
+    border: solid 1px white;
+    border-radius: 50px;
+}
+
+.creation{
+    margin-left: 20px;
+    color: #CCCCCC;
+    opacity: 0.7;
+}
+
+.name{
+    margin-left: 10px;
+    opacity: 1.0;
+    color: white;
 }
