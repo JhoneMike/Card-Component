@@ -2,6 +2,7 @@ html{
     margin: 0px;
     height: 100%;
     width: 100%;
+    font-family:'Outfit', sans-serif;
 }
 
 body{
@@ -34,12 +35,13 @@ main{
 }
 
 .conteudo h2{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .conteudo p{
-    font-size: 15px;
+    font-size: 13px;
     width: 90%;
+    opacity: 0.6;
 }
 
 .informacoes{
@@ -47,16 +49,20 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
 } 
 
 .valor p{
     display: inline;
     margin-right: 30px;
+    color: cyan;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 .periodo p{
     display: inline;
+    color: #CCCCCC;
+    font-size: 12px;
 }
 
 .separacao{
@@ -84,10 +90,12 @@ main{
     margin-left: 20px;
     color: #CCCCCC;
     opacity: 0.7;
+    font-size: 12px;
 }
 
 .name{
     margin-left: 10px;
     opacity: 1.0;
     color: white;
+    font-size: 12px;
 }
