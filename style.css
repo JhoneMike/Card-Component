@@ -99,3 +99,12 @@ main{
     color: white;
     font-size: 12px;
 }
+
+@media screen and (max-width: 375px){
+    html,body{
+        width: 375px;
+        margin: 0;
+    }
+
+    
+}   
